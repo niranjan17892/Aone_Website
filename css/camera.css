@@ -3,6 +3,85 @@
 *	GENERAL
 *
 **************************/
+
+    .backdrop {
+        font-family: 'Roboto', sans-serif;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.6);
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    .popup{
+        position: relative;
+        z-index: 1;
+        width:60%;
+        margin: 10% auto;
+        background: #fff;
+        border-radius: 10px;
+        display: none;
+    }
+    .head-popup{
+        border-bottom: 1px solid #ccc;
+        padding: 20px;
+    }
+    .head-popup h2{
+        margin: 0;
+    }
+    .body-popup{
+        padding: 15px 20px;
+    }
+    .foot-popup{
+        padding: 20px;
+        border-top: 1px solid #ccc;
+        text-align: right;
+    }
+    .waves-effect {
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        vertical-align: middle;
+        z-index: 1;
+        will-change: opacity, transform;
+        transition: .3s ease-out;
+    }
+    .btn, .btn-large {
+        text-decoration: none;
+        color: #fff;
+        background-color: #26a69a;
+        text-align: center;
+        letter-spacing: .5px;
+        transition: .2s ease-out;
+        cursor: pointer;
+    }
+    .btn, .btn-large, .btn-flat {
+        border: none;
+        border-radius: 2px;
+        display: inline-block;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 2rem;
+        text-transform: uppercase;
+        vertical-align: middle;
+        -webkit-tap-highlight-color: transparent;
+
+    }
+    .modals{
+        display: inline-block;
+        margin: 10px;
+    }
+
+
 .camera_wrap a, .camera_wrap img, 
 .camera_wrap ol, .camera_wrap ul, .camera_wrap li,
 .camera_wrap table, .camera_wrap tbody, .camera_wrap tfoot, .camera_wrap thead, .camera_wrap tr, .camera_wrap th, .camera_wrap td
