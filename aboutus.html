@@ -81,11 +81,26 @@
         <div class="wrap">
             <nav>
                 <ul>
-                    <li><a href="commercial_carpet.html">Commercial</a></li>
-                    <li><a href="residential_carpet.html">Residential</a></li>
-                    <li><a href="hospatality_carpet.html">Hospitality</a></li>
-                    <li><a href="carpet_tile.html">Carpet Tile</a></li>
+                    <li class="dropdown">
+                        <a href="" class="dropbtn" onmouseover="toggleCarpets()">Carpets</a>
+                        <div class="dropdown-content" onmouseout="toggleCarpets()" id="myDropdown">
+                            <a href="commercial_carpet.html">Commercial</a>
+                            <a href="residential_carpet.html">Residential</a>
+                            <a href="hospatality_carpet.html">Hospitality</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="carpet_tile.html">Carpet Tile</a>
+                    </li>
                     <li><a href="rugs.html">Rugs</a></li>
+                    <li class="dropdown">
+                        <a href="" class="dropbtn" onmouseover="toggleGranites()">Granites</a>
+                        <div class="dropdown-content" onmouseout="toggleGranites()" id="myDropdown1">
+                            <a href="north-indian-granites.html">North Indian Granites</a>
+                            <a href="south-indian-granites.html">South Indian Granites</a>
+                        </div>
+                    </li>
+                    <li><a href="marbles.html">Marbles</a></li>
                 </ul>
             </nav>
 
@@ -190,7 +205,11 @@
     </div>
     <div class="clear"> </div>
     <div class="footer1">
-        <p class="link"><span>© All rights Reserved | A-one Carpets Inc	</span></p>
+        <p class="link"><span>2017 © All rights Reserved | A-one Carpets Inc	</span></p>
     </div>
+
+    <!-- Scroll to top -->
+    <span class="totop"><a href="#">&#8679;</a></span>
+
 </body>
 </html>

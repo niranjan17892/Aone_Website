@@ -79,11 +79,26 @@
         <div class="wrap">
             <nav>
                 <ul>
-                    <li><a href="commercial_carpet.html">Commercial</a></li>
-                    <li><a href="residential_carpet.html">Residential</a></li>
-                    <li><a href="hospatality_carpet.html">Hospitality</a></li>
-                    <li><a href="carpet_tile.html">Carpet Tile</a></li>
+                    <li class="dropdown">
+                        <a href="" class="dropbtn" onmouseover="toggleCarpets()">Carpets</a>
+                        <div class="dropdown-content" onmouseout="toggleCarpets()" id="myDropdown">
+                            <a href="commercial_carpet.html">Commercial</a>
+                            <a href="residential_carpet.html">Residential</a>
+                            <a href="hospatality_carpet.html">Hospitality</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="carpet_tile.html">Carpet Tile</a>
+                    </li>
                     <li><a href="rugs.html">Rugs</a></li>
+                    <li class="dropdown">
+                        <a href="" class="dropbtn" onmouseover="toggleGranites()">Granites</a>
+                        <div class="dropdown-content" onmouseout="toggleGranites()" id="myDropdown1">
+                            <a href="north-indian-granites.html">North Indian Granites</a>
+                            <a href="south-indian-granites.html">South Indian Granites</a>
+                        </div>
+                    </li>
+                    <li><a href="marbles.html">Marbles</a></li>
                 </ul>
             </nav>
 
@@ -731,58 +746,9 @@
     </div>
     <div class="clear"> </div>
     <div class="footer1">
-        <p class="link"><span>© All rights Reserved | &nbsp; <a href="http://a-onecarpets.com/"> A-One Carpets Inc</a>	</span></p>
+        <p class="link"><span>2017 © All rights Reserved | &nbsp; <a href="http://a-onecarpets.com/"> A-One Carpets Inc</a>	</span></p>
     </div>
-    <div class="backdrop">
-        <div class="popup" id="product1">
-            <div class="head-popup">
-                <h2>Product Name</h2>
-                <img src="images/5-home_default.jpg">
-            </div>
-            <div class="body-popup">
-                <h4>Specifications</h4>
-                <p>A bunch of text</p>
-            </div>
-            <div class="foot-popup">
-                <button class="waves-effect btn close-popup">Close</button>
-            </div>
-        </div>
-        <div class="popup" id="product2">
-            <div class="head-popup">
-                <h2>Product Name 2</h2>
-            </div>
-            <div class="body-popup">
-                <h4>Modal Header 2</h4>
-                <p>A bunch of text 2</p>
-            </div>
-            <div class="foot-popup">
-                <button class="waves-effect btn close-popup">Close</button>
-            </div>
-        </div>
-        <div class="popup" id="product3">
-            <div class="head-popup">
-                <h2>Product Name 2</h2>
-            </div>
-            <div class="body-popup">
-                <h4>Modal Header 2</h4>
-                <p>A bunch of text 2</p>
-            </div>
-            <div class="foot-popup">
-                <button class="waves-effect btn close-popup">Close</button>
-            </div>
-        </div>
-        <div class="popup" id="product4">
-            <div class="head-popup">
-                <h2>Product Name 2</h2>
-            </div>
-            <div class="body-popup">
-                <h4>Modal Header 2</h4>
-                <p>A bunch of text 2</p>
-            </div>
-            <div class="foot-popup">
-                <button class="waves-effect btn close-popup">Close</button>
-            </div>
-        </div>
-    </div>
-</body>
+    <!-- Scroll to top -->
+    <span class="totop"><a href="#">&#8679;</a></span>
+ </body>
 </html>
